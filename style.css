@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ff6700;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.carousel {
+    position: relative;
+    max-width: 1660px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    position: relative;
+    text-align: center;
+}
+
+.carousel-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.carousel-images img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.carousel-images img:last-child {
+    margin-right: 0;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+.info h3 {
+    margin: 5px 0;
+}
+
+.info p {
+    margin: 2px 0;
+}
+
+.reserve-button {
+    background-color: #ff6700;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.reserve-button:hover {
+    background-color: #e65c00;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 102, 0, 0.7);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    transition: background 0.3s;
+    z-index: 1;
+}
+
+.carousel-button:hover {
+    background: rgba(255, 102, 0, 1);
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff6700;
+    color: white;
+}
